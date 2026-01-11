@@ -15,3 +15,6 @@ variable "sg_tags" {
     type = map
     default = {}
 }
+variable "vpc_id" {
+    type = string
+}
