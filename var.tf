@@ -7,6 +7,11 @@ variable "environment"{
 variable "sg_name"{
     type=list
 }
-variable "description"{
-    type=string
+variable "sg_description" {
+  type        = string
+  default = ""
+}
+variable "sg_tags" {
+    type = map
+    default = {}
 }
