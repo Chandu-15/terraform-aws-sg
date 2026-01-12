@@ -9,7 +9,7 @@ variable "sg_name"{
 }
 variable "description" {
   type        = string
-  default ={}
+  default =""
 }
 variable "sg_tags" {
     type = map
