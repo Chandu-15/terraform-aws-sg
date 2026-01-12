@@ -7,7 +7,7 @@ variable "environment"{
 variable "sg_name"{
     type=list
 }
-variable "sg_description" {
+variable "description" {
   type        = string
   default ={}
 }
